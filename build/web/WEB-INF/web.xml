@@ -6,6 +6,6 @@
     </servlet>
     <servlet-mapping>
         <servlet-name>Datos</servlet-name>
-        <url-pattern>/</url-pattern>
+        <url-pattern>/Datos</url-pattern>
     </servlet-mapping>
 </web-app>
