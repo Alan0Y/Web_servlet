@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<!--
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/Html.html to edit this template
+-->
+<html>
+    <head>
+        <title>Calculadora de Edad</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <div>
+            <form name="form" id="form1" action="Datos" method="post">
+                <table border="1">
+                    <tr>
+                        <td>Nombre: </td>
+                        <td><input type="text" name="txtNombre" required></td>
+                    </tr>
+                    <tr>
+                        <td>País: </td>
+                        <td><input type="text" name="txtPais" required></td>
+                    </tr> 
+                    <tr>
+                        <td>Año actual: </td>
+                        <td><input type="number" max=2025 name="txtActual" required></td>
+                    </tr> 
+                    <tr>
+                        <td>Fecha de nacimiento: </td>
+                        <td><input type="number" max=2025 name="txtNac" required></td>
+                    </tr>
+                    <tr>
+                        <td colspan="2"> 
+                            <input type="submit" value="Enviar">
+                        </td>
+                        <td></td>
+                    </tr> 
+                </table>
+            </form>
+        </div>
+    </body>
+</html>
